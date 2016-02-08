@@ -328,13 +328,14 @@ From App Store.
 
 To be added to this Readme. These are the commands, but not automated at this time.
 
-`brew install 'ruby-build'`
-`brew install 'rbenv'`
-`brew install 'rbenv-default-gems'`
+* `brew install 'ruby-build'`
+* `brew install 'rbenv'`
+* `brew install 'rbenv-default-gems'`
+* `gem install bundler sass`
 
 ### Install node version manager
 
-`brew install n`
+* `brew install n`
 
 ## Things to do now
 
