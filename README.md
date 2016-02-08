@@ -296,5 +296,27 @@ For example:
 sublime ./
 ```
 
+### Install Seil
+
+https://github.com/tekezo/Seil
+
+Configure CapsLock to F13.
+
+### Install Alfred 1 w/ config
+
+License in Evernote. Config in OneDrive.
+
+https://www.alfredapp.com/help/v1/
+
+### Install BetterTouchTool w/ config
+
+License in Evernote. Config in OneDrive.
+
+https://www.boastr.net/downloads/
+
+### Install DragonDrop
+
+From App Store.
+
 ## Thanks to
 [Mathias Bynens](http://twitter.com/mathias "Follow @mathias on Twitter") for the [original repo](https://github.com/mathiasbynens/dotfiles) we used to start this guide.
