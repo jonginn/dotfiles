@@ -119,41 +119,73 @@ Now, install dependencies for the linters:
 
 ```json
 {
-    "always_show_minimap_viewport": true,
-    "auto_complete_selector": "source, meta.tag - punctuation.definition.tag.begin",
-    "bold_folder_labels": true,
-    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-    "ensure_newline_at_eof_on_save": true,
-    "folder_exclude_patterns":
-    [
-        ".git",
-        ".hg",
-        "CVS",
-        ".sass-cache",
-    ],
-    "font_face": "Fira Code",
-    "font_options":
-    [
-        "gray_antialias"
-    ],
-    "font_size": 19,
-    "ignored_packages":
-    [
-        "Markdown",
-        "Vintage"
-    ],
-    "indent_guide_options":
-    [
-        "draw_normal",
-        "draw_active"
-    ],
-    "line_padding_bottom": 3,
-    "line_padding_top": 3,
-    "overlay_scroll_bars": "enabled",
-    "theme": "Material-Theme.sublime-theme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true
+	"always_show_minimap_viewport": true,
+	"auto_complete_selector": "source, meta.tag - punctuation.definition.tag.begin",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"default_line_ending": "LF",
+	"bold_folder_labels": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.scssc",
+		".sass_cache",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"CVS"
+	],
+	"folder_exclude_patterns":
+	[
+		".sass-cache",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp/cache",
+		"wp-content/cache",
+		"/vendor/",
+		"node_modules"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 14.0,
+	"ignored_packages":
+	[
+		"Search WordPress Codex",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": true,
+	"smart_indent": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
 }
+
 ```
 
 ### Sublime - SublimeLinter Settings
