@@ -3,3 +3,4 @@
 npm install -g eslint
 npm install -g eslint-config-airbnb
 npm install -g babel-eslint
+npm install -g npm-check-updates
