@@ -320,7 +320,15 @@ From App Store.
 
 ### Install rbenv/Ruby
 
-To be added to this Readme.
+To be added to this Readme. These are the commands, but not automated at this time.
+
+`brew install 'ruby-build'`
+`brew install 'rbenv'`
+`brew install 'rbenv-default-gems'`
+
+### Install node version manager
+
+`brew install n`
 
 ## Thanks to
 [Mathias Bynens](http://twitter.com/mathias "Follow @mathias on Twitter") for the [original repo](https://github.com/mathiasbynens/dotfiles) we used to start this guide.
