@@ -296,9 +296,5 @@ For example:
 sublime ./
 ```
 
-## Rareloop Slack Theme
-
-`#34454E,#263238,#28a9e3,#FFFFFF,#1b2b33,#ffffff,#FFFFFF,#ff6465`
-
 ## Thanks to
 [Mathias Bynens](http://twitter.com/mathias "Follow @mathias on Twitter") for the [original repo](https://github.com/mathiasbynens/dotfiles) we used to start this guide.
