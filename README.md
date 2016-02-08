@@ -78,23 +78,34 @@ First, [download & install sublime](https://download.sublimetext.com/Sublime%20T
 
 Then, install [Package Control](https://packagecontrol.io/installation).
 
-Using Package Control, install the following packages:
+Using Package Control, add this to your Package Control -> User Settings.
 
-- All Autocomplete
-- Blade Snippets
-- Colorsublime
-- EditorConfig
-- Emmet
-- Handlebars
-- PHP-Twig
-- Sass
-- SASS Snippets
-- SideBarEnhancements
-- SublimeLinter
-- SublimeLinter-contrib-eslint
-- SublimeLinter-json
-- SublimeLinter-phpcs
-- Twig
+```json
+"installed_packages":
+    [
+        "BracketHighlighter",
+        "Emmet",
+        "HTMLBeautify",
+        "InsertDate",
+        "jQuery",
+        "JsFormat",
+        "List stylesheet variables",
+        "LiveStyle",
+        "Markdown Extended",
+        "SublimeLinter",
+        "SublimeLinter-contrib-eslint",
+        "SublimeLinter-json",
+        "SublimeLinter-phpcs",
+        "Package Control",
+        "Perfectionist",
+        "PHP-Twig",
+        "Phpcs",
+        "SCSS",
+        "Search WordPress Codex",
+        "WordPress",
+        "GitGutter"
+    ]
+```
 
 Now, install dependencies for the linters:
 
