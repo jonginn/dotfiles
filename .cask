@@ -1,6 +1,5 @@
 # Install native apps
-brew tap phinze/homebrew-cask
-brew install brew-cask
+brew tap caskroom/cask
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
@@ -11,3 +10,25 @@ installcask imageoptim
 # installcask sublime-text
 installcask sequel-pro
 installcask cyberduck
+installcask virtualbox
+installcask vagrant
+installcask prey
+installcask iterm2
+installcask flux
+installcask steam
+installcask seil
+installcask the-unarchiver
+installcask jadengeller-helium
+installcask caffeine
+
+# quicklook
+installcask 'qlcolorcode'
+installcask 'qlstephen'
+installcask 'qlmarkdown'
+installcask 'quicklook-json'
+installcask 'qlprettypatch'
+installcask 'quicklook-csv'
+installcask 'betterzipql'
+installcask 'qlimagesize'
+installcask 'webpquicklook'
+installcask 'suspicious-package'
