@@ -1,4 +1,4 @@
-# Rareloop Mac Setup
+# Jon Mac Setup
 
 Process to setup a fresh Mac install for development.
 
