@@ -337,4 +337,6 @@ To be added to this Readme. These are the commands, but not automated at this ti
 https://box.scotch.io/
 
 ## Thanks to
-[Mathias Bynens](http://twitter.com/mathias "Follow @mathias on Twitter") for the [original repo](https://github.com/mathiasbynens/dotfiles) we used to start this guide.
+* [Adz](http://github.com/skattyadz), [for a bunch of cool things](https://github.com/skattyadz/dotfiles/blob/master/homebrew/Brewfile) which I've added here
+* [Rareloop](http://github.com/rareloop), for their own version of this which I've totally nicked
+* [Mathias Bynens](http://twitter.com/mathias "Follow @mathias on Twitter") for the [original repo](https://github.com/mathiasbynens/dotfiles) Rareloop used to start this guide.
