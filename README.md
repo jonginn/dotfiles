@@ -330,5 +330,11 @@ To be added to this Readme. These are the commands, but not automated at this ti
 
 `brew install n`
 
+## Things to do now
+
+### Check out Scotchbox
+
+https://box.scotch.io/
+
 ## Thanks to
 [Mathias Bynens](http://twitter.com/mathias "Follow @mathias on Twitter") for the [original repo](https://github.com/mathiasbynens/dotfiles) we used to start this guide.
