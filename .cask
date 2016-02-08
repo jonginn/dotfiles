@@ -21,6 +21,7 @@ installcask seil
 installcask the-unarchiver
 installcask jadengeller-helium
 installcask caffeine
+installcask slack
 
 # quicklook
 installcask 'qlcolorcode'
