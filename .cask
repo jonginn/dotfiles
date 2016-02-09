@@ -17,6 +17,7 @@ installcask prey
 installcask iterm2
 installcask flux
 installcask steam
+installcask bettertouchtool
 installcask seil
 # installcask the-unarchiver
 installcask jadengeller-helium
