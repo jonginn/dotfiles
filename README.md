@@ -61,7 +61,7 @@ sudo apachectl -k restart
 ### Install Composer
 
 ```bash
-curl -sS https://getcomposer.org/installer | php`
+curl -sS https://getcomposer.org/installer | sudo -H php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
 ### Install the dotfiles
