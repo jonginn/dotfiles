@@ -18,10 +18,10 @@ installcask iterm2
 installcask flux
 installcask steam
 installcask seil
-installcask the-unarchiver
+# installcask the-unarchiver
 installcask jadengeller-helium
-installcask caffeine
-installcask slack
+# installcask caffeine
+# installcask slack
 
 # quicklook
 installcask 'qlcolorcode'
