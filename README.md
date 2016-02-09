@@ -302,9 +302,7 @@ For example:
 sublime ./
 ```
 
-### Install Seil
-
-https://github.com/tekezo/Seil
+### Configure Seil
 
 Configure CapsLock to F13.
 
@@ -314,11 +312,9 @@ License in Evernote. Config in OneDrive.
 
 https://www.alfredapp.com/help/v1/
 
-### Install BetterTouchTool w/ config
+### Configure BetterTouchTool w/ config
 
-License in Evernote. Config in OneDrive.
-
-https://www.boastr.net/downloads/
+License + Config in OneDrive.
 
 ### Install DragonDrop
 
