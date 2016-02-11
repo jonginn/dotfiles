@@ -23,6 +23,7 @@ installcask seil
 installcask jadengeller-helium
 # installcask caffeine
 # installcask slack
+installcask tripmode
 
 # quicklook
 installcask 'qlcolorcode'
