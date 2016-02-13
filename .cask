@@ -25,6 +25,7 @@ installcask jadengeller-helium
 # installcask slack
 installcask tripmode
 installcask transmission
+installcask vlc
 
 # quicklook
 installcask 'qlcolorcode'
