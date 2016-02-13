@@ -306,6 +306,8 @@ sublime ./
 
 https://github.com/ndbroadbent/scm_breeze#installation
 
+This would get removed if you re-ran `bootstrap.sh`, could this be auto-added to these files?
+
 ### Configure Seil
 
 Configure CapsLock to F13.
