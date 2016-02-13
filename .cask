@@ -6,15 +6,8 @@ function installcask() {
 }
 
 installcask google-chrome
-installcask imagealpha
-installcask imageoptim
 # installcask sublime-text
-installcask sequel-pro
-installcask cyberduck
-installcask virtualbox
-installcask vagrant
 installcask prey
-installcask iterm2
 installcask flux
 installcask steam
 installcask bettertouchtool
@@ -26,6 +19,17 @@ installcask jadengeller-helium
 installcask tripmode
 installcask transmission
 installcask vlc
+
+# development
+installcask imagealpha
+installcask imageoptim
+installcask iterm2
+installcask virtualbox
+installcask sequel-pro
+installcask cyberduck
+installcask vagrant
+installcask vagrant-manager
+
 
 # quicklook
 installcask 'qlcolorcode'
