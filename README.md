@@ -302,6 +302,10 @@ For example:
 sublime ./
 ```
 
+### Install scm-breeze
+
+https://github.com/ndbroadbent/scm_breeze#installation
+
 ### Configure Seil
 
 Configure CapsLock to F13.
