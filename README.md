@@ -26,6 +26,11 @@ unzip dotfiles.zip
 ~/Desktop/dotfiles-master/.npm
 ```
 
+### Install what we need from Rubygems
+```bash
+~/Desktop/dotfiles-master/.gems
+```
+
 ### Install some useful native applications
 ```bash
 ~/Desktop/dotfiles-master/.cask
