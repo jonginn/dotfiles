@@ -46,5 +46,8 @@ brew install zopfli
 brew install mcrypt
 brew install php56-mcrypt
 
+# Get latest Ruby
+brew install ruby
+
 # Remove outdated versions from the cellar
 brew cleanup
