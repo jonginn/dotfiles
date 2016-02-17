@@ -12,7 +12,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ### Download this repo
 ```bash
 cd ~/Desktop
-curl -L https://github.com/rareloop/dotfiles/archive/master.zip > dotfiles.zip
+curl -L https://github.com/jonginn/dotfiles/archive/master.zip > dotfiles.zip
 unzip dotfiles.zip
 ```
 
