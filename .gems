@@ -1,0 +1,9 @@
+function installgem() {
+	gem install "${@}" --no-ri --no-rdoc
+}
+
+installgem jekyll
+installgem jekyll-sitemap
+installgem jekyll-paginate
+installgem sass
+installgem scss_lint
