@@ -7,3 +7,4 @@ installgem jekyll-sitemap
 installgem jekyll-paginate
 installgem sass
 installgem scss_lint
+installgem bundler
