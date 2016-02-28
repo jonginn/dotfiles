@@ -74,6 +74,11 @@ curl -sS https://getcomposer.org/installer | sudo -H php -- --install-dir=/usr/l
 source ~/Desktop/dotfiles-master/bootstrap.sh
 ```
 
+### Install SCM Breeze
+```bash
+./scm_breeze.sh
+```
+
 ## Extras
 
 ### Install custom Terminal theme
@@ -306,12 +311,6 @@ For example:
 ```bash
 sublime ./
 ```
-
-### Install scm-breeze
-
-https://github.com/ndbroadbent/scm_breeze#installation
-
-This would get removed if you re-ran `bootstrap.sh`, could this be auto-added to these files?
 
 ### Configure Seil
 
