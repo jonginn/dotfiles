@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if type git_index > /dev/null 2>&1; then
-  echo "SCM Breeze already installed\!"
+  echo "SCM Breeze already installed!"
 
 else
   install_to="$HOME/setup"
