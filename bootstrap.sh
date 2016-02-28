@@ -2,7 +2,7 @@
 cd "$(dirname "${BASH_SOURCE}")"
 git pull origin master
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "scm_breeze.sh" \
+	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" --exclude "scm_breeze.sh" --exclude "wp-cli.sh" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" --exclude "unused/" --exclude ".tm_properties" --exclude "presets/" -av --no-perms . ~
 	source ~/.bash_profile
 }
