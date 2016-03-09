@@ -63,12 +63,6 @@ Look for the line that contains `LoadModule php5_module` and replace with `LoadM
 sudo apachectl -k restart
 ```
 
-### Install Composer
-
-```bash
-curl -sS https://getcomposer.org/installer | sudo -H php -- --install-dir=/usr/local/bin --filename=composer
-```
-
 ### Install the dotfiles
 ```bash
 source ~/Desktop/dotfiles-master/bootstrap.sh
