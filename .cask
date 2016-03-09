@@ -19,6 +19,7 @@ installcask jadengeller-helium
 installcask tripmode
 installcask transmission
 installcask vlc
+installcask keepassx
 
 # development
 installcask imagealpha
