@@ -29,7 +29,7 @@ installcask sequel-pro
 installcask cyberduck
 installcask vagrant
 installcask vagrant-manager
-
+installcask adobe-creative-cloud
 
 # quicklook
 installcask 'qlcolorcode'
