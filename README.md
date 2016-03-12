@@ -108,7 +108,7 @@ Using Package Control, add this to your Package Control -> User Settings.
         "SublimeLinter-phpcs",
         "Package Control",
         "Perfectionist",
-        "PHP-Twig",
+        "Twig",
         "Phpcs",
         "SCSS",
         "Search WordPress Codex",
