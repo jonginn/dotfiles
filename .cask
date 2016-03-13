@@ -20,6 +20,7 @@ installcask tripmode
 installcask transmission
 installcask vlc
 installcask keepassx
+installcask google-play-music-desktop-player
 
 # development
 installcask imagealpha
