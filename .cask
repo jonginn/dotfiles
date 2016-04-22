@@ -12,10 +12,10 @@ installcask flux
 installcask steam
 installcask bettertouchtool
 installcask seil
-# installcask the-unarchiver
+installcask the-unarchiver
 installcask jadengeller-helium
-# installcask caffeine
-# installcask slack
+installcask caffeine
+installcask slack
 installcask tripmode
 installcask transmission
 installcask vlc
