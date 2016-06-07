@@ -23,7 +23,7 @@ unzip dotfiles.zip
 
 ### Install what we need from NPM
 ```bash
-~/Desktop/dotfiles-master/.npm
+~/Desktop/dotfiles-master/.node
 ```
 
 ### Install what we need from Rubygems
