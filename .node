@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-npm install -g eslint
-npm install -g eslint-config-airbnb
-npm install -g babel-eslint
+npm config set prefix '~/.npm-packages'
 npm install -g npm-check-updates
+npm install -g npm-cache
+npm install -g bower
