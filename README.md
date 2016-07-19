@@ -314,8 +314,7 @@ Configure CapsLock to F13.
 
 * License in Evernote. Config in OneDrive.
 * https://www.alfredapp.com/help/v1/
-* Make `/opt` visible with `sudo SetFile  -a  v  /opt`
-* Add `/opt/homebrew-cask/Caskroom` to Alfred
+* Add `/usr/local/Caskroom` to Alfred by adding the folder to the search scope and pressing CMD+SHIFT+G to type out the folder manually.
 * Or use [Link Alfred with Cask](http://computers.tutsplus.com/tutorials/perfect-configurations-with-homebrew-and-cask--cms-20768) commands if that works: `brew cask alfred link`
 
 ### Configure BetterTouchTool w/ config
