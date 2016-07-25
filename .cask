@@ -44,3 +44,5 @@ installcask 'betterzipql'
 installcask 'qlimagesize'
 installcask 'webpquicklook'
 installcask 'suspicious-package'
+
+brew cleanup
