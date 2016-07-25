@@ -306,6 +306,14 @@ For example:
 sublime ./
 ```
 
+### Install OneDrive
+
+Install it!
+
+### Mackup
+
+`mackup restore`
+
 ### Configure Seil
 
 Configure CapsLock to F13.
@@ -320,10 +328,6 @@ Configure CapsLock to F13.
 ### Configure BetterTouchTool w/ config
 
 License + Config in OneDrive.
-
-### Install DragonDrop
-
-From App Store.
 
 ## Things to do now
 
