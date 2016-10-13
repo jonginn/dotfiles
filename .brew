@@ -49,6 +49,7 @@ brew install webkit2png
 brew install mcrypt
 brew install php56-mcrypt
 brew install ansible
+brew install yarn
 
 # Get latest Ruby
 brew install ruby
