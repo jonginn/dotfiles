@@ -50,3 +50,6 @@ fi
 #if [ -f /usr/libexec/java_home ]; then
 #	export JAVA_HOME=$(/usr/libexec/java_home)
 #fi
+
+Add npm custom directory to PATH
+export PATH="/Users/jon/.npm-packages/bin:$PATH"
