@@ -21,6 +21,7 @@ installcask tripmode
 installcask transmission
 installcask vlc
 installcask keepassx
+installcask numi
 installcask google-play-music-desktop-player
 
 # development
