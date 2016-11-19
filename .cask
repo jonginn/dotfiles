@@ -23,6 +23,7 @@ installcask vlc
 installcask keepassx
 installcask numi
 installcask google-play-music-desktop-player
+installcask tunnelbear
 
 # development
 installcask imagealpha
