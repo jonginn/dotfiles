@@ -18,10 +18,10 @@ installcask jadengeller-helium
 installcask caffeine
 installcask slack
 installcask tripmode
-installcask transmission
+# installcask transmission
 installcask vlc
 installcask keepassx
-installcask numi
+# installcask numi
 installcask google-play-music-desktop-player
 installcask tunnelbear
 
@@ -30,11 +30,12 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask virtualbox
-installcask sequel-pro
+# installcask sequel-pro
 installcask cyberduck
 installcask vagrant
 installcask vagrant-manager
 installcask adobe-creative-cloud
+installcask postman
 
 # quicklook
 installcask 'qlcolorcode'
