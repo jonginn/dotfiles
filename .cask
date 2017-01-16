@@ -5,22 +5,28 @@ function installcask() {
 	brew cask install "${@}" 2> /dev/null
 }
 
-API_KEY="UPDATEME" brew cask install prey # Get API key at https://panel.preyproject.com/settings
+# Get API key at https://panel.preyproject.com/settings
+# API_KEY="UPDATEME" brew cask install prey
 
-installcask google-chrome
-# installcask sublime-text
+# Essential Mac
+installcask hyperswitch
 installcask flux
-installcask steam
 installcask bettertouchtool
 installcask seil
 installcask the-unarchiver
-installcask jadengeller-helium
 installcask caffeine
-installcask slack
 installcask tripmode
+
+# Work
+installcask slack
+installcask keepassx
+
+# Apps
+installcask google-chrome
+installcask steam
+installcask jadengeller-helium
 # installcask transmission
 installcask vlc
-installcask keepassx
 # installcask numi
 installcask google-play-music-desktop-player
 installcask tunnelbear
