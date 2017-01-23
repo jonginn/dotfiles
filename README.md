@@ -53,15 +53,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 ### Update Apache to use PHP from Homebrew
-```bash
-nano /etc/apache2/httpd.conf
-```
-
-Look for the line that contains `LoadModule php5_module` and replace with `LoadModule php5_module /usr/local/opt/php56/libexec/apache2/libphp5.so`.
-
-```bash
-sudo apachectl -k restart
-```
+Follow the steps from [here](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions).
 
 ### Install the dotfiles
 ```bash
