@@ -37,19 +37,18 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 # Install other useful binaries
 brew install ack
 brew install git
-brew install imagemagick
-brew install lynx
+# brew install imagemagick
+# brew install lynx
 brew install node
-brew install pigz
+# brew install pigz
 # brew install rename
 # brew install rhino
 brew install tree
 brew install webkit2png
 # brew install zopfli
 brew install mcrypt
-brew install php56-mcrypt
+brew install php70-mcrypt
 brew install ansible
-brew install yarn
 
 # Get latest Ruby
 brew install ruby
