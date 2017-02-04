@@ -42,6 +42,7 @@ installcask vagrant
 installcask vagrant-manager
 installcask adobe-creative-cloud
 installcask postman
+installcask meld
 
 # quicklook
 installcask 'qlcolorcode'
