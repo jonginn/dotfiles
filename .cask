@@ -15,7 +15,9 @@ installcask bettertouchtool
 installcask seil
 installcask the-unarchiver
 installcask caffeine
-installcask lastpass
+
+# Install lastpass manually later as it requires extra steps
+# installcask lastpass
 
 # Tripmode will automatically activate when installed and cut off further installations... so do this manually.
 # installcask tripmode
