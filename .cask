@@ -15,7 +15,9 @@ installcask bettertouchtool
 installcask seil
 installcask the-unarchiver
 installcask caffeine
-installcask tripmode
+
+# Tripmode will automatically activate when installed and cut off further installations... so do this manually.
+# installcask tripmode
 
 # Work
 installcask slack
