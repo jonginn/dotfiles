@@ -16,9 +16,6 @@ installcask seil
 installcask the-unarchiver
 installcask caffeine
 
-# Install lastpass manually later as it requires extra steps
-# installcask lastpass
-
 # Tripmode will automatically activate when installed and cut off further installations... so do this manually.
 # installcask tripmode
 
