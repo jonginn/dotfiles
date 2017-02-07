@@ -171,7 +171,7 @@ Now, install dependencies for the linters:
 		"/vendor/",
 		"node_modules"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Fira Code",
 	"font_size": 14.0,
 	"ignored_packages":
 	[
