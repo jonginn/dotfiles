@@ -53,3 +53,6 @@ fi
 
 # Add npm custom directory to PATH
 export PATH="/Users/jon/.npm-packages/bin:$PATH"
+
+# Add Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
