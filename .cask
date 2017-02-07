@@ -27,7 +27,7 @@ installcask keepassx
 # Apps
 installcask google-chrome
 installcask steam
-installcask jadengeller-helium
+# installcask jadengeller-helium
 # installcask transmission
 installcask vlc
 # installcask numi
