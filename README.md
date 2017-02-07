@@ -124,11 +124,6 @@ Now, install dependencies for the linters:
 
 - `sudo gem install scss_lint`
 
-**Sublime Theme**
-
-- Install [Fira Code](https://github.com/tonsky/FiraCode) font.
-- Install [Source Sans Pro](https://github.com/adobe-fonts/source-code-pro) font.
-
 ### Sublime - User Settings
 
 ```json
@@ -306,9 +301,9 @@ Install it!
 
 `mackup restore`
 
-### Configure Seil
+### Configure Karabiner
 
-Configure CapsLock to F13.
+Configure CapsLock to F19.
 
 ### Install Alfred w/ config
 
