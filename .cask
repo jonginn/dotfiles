@@ -1,5 +1,6 @@
 # Install native apps
 brew tap caskroom/cask
+brew tap caskroom/fonts
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
@@ -57,5 +58,9 @@ installcask 'betterzipql'
 installcask 'qlimagesize'
 installcask 'webpquicklook'
 installcask 'suspicious-package'
+
+# Fonts
+installcask font-fira-code
+installcask font-source-sans-pro
 
 brew cleanup
