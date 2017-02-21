@@ -23,6 +23,7 @@ installcask caffeine
 # Work
 installcask slack
 installcask keepassx
+installcask atom
 
 # Apps
 installcask google-chrome
@@ -39,7 +40,7 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask virtualbox
-# installcask sequel-pro
+installcask sequel-pro
 installcask cyberduck
 installcask vagrant
 installcask vagrant-manager

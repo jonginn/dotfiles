@@ -18,31 +18,31 @@ unzip dotfiles.zip
 
 ### Install what we need from Homebrew
 ```bash
-~/Desktop/dotfiles-master/.brew
+./.brew
 ```
 
 ### Install what we need from NPM
 ```bash
-~/Desktop/dotfiles-master/.node
+./.node
 ```
 
 ### Install what we need from Rubygems
 ```bash
-~/Desktop/dotfiles-master/.gems
+./.gems
 ```
 
 ### Install some useful native applications
 ```bash
-~/Desktop/dotfiles-master/.cask
+./.cask
 ```
 
 ### Setup some sensible OSX defaults
 ```bash
-~/Desktop/dotfiles-master/.osx
+./.osx
 ```
 
 ### Get ready for Git
-Edit `~/Desktop/dotfiles-master/.extra` and edit:
+Edit `./.extra` and edit:
 
 - `GIT_AUTHOR_NAME`
 - `GIT_AUTHOR_EMAIL`
@@ -57,7 +57,7 @@ Follow the steps from [here](https://getgrav.org/blog/macos-sierra-apache-multip
 
 ### Install the dotfiles
 ```bash
-source ~/Desktop/dotfiles-master/bootstrap.sh
+source ./bootstrap.sh
 ```
 
 ### Install SCM Breeze
@@ -71,235 +71,18 @@ source ~/Desktop/dotfiles-master/bootstrap.sh
 - Open Terminal
 - Open Preferences
 - Goto Profiles tab
-- Import `~/Desktop/dotfiles-master/presets/Rareloop.terminal`
+- Import `./presets/jonginn.terminal`
 - Set as default
-
-### Setup code linting in Sublime Text
-
-First, [download & install sublime](https://download.sublimetext.com/Sublime%20Text%20Build%203083.dmg). __Note: Using `brew cask install sublime-text` installed Sublime Text 2, not 3. Didn't seem to have one for 3.__
-
-Then, install [Package Control](https://packagecontrol.io/installation).
-
-Using Package Control, add this to your Package Control -> User Settings.
-
-```json
-"installed_packages":
-    [
-        "BracketHighlighter",
-        "Emmet",
-        "HTMLBeautify",
-        "InsertDate",
-        "jQuery",
-        "JsFormat",
-        "List stylesheet variables",
-        "LiveStyle",
-        "Markdown Extended",
-        "SublimeLinter",
-        "SublimeLinter-contrib-eslint",
-        "SublimeLinter-json",
-        "SublimeLinter-phpcs",
-        "Package Control",
-        "Perfectionist",
-        "Twig",
-        "Phpcs",
-        "SCSS",
-        "Search WordPress Codex",
-        "WordPress",
-        "GitGutter"
-    ]
-```
-
-Now, install dependencies for the linters:
-
-**[SublimeLinter-phpcs](https://github.com/SublimeLinter/SublimeLinter-phpcs)**
-
-- [Install PEAR and PECL on Mac OS X](http://jason.pureconcepts.net/2012/10/install-pear-pecl-mac-os-x/)
-- `pear install PHP_CodeSniffer`
-
-**[SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)**
-
-- `npm install -g eslint`
-
-**[Sublimelinter-scss-lint](https://github.com/attenzione/SublimeLinter-scss-lint)**
-
-- `sudo gem install scss_lint`
-
-### Sublime - User Settings
-
-```json
-{
-	"always_show_minimap_viewport": true,
-	"auto_complete_selector": "source, meta.tag - punctuation.definition.tag.begin",
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-	"default_line_ending": "LF",
-	"bold_folder_labels": true,
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		"*.pyc",
-		"*.scssc",
-		".sass_cache",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"CVS"
-	],
-	"folder_exclude_patterns":
-	[
-		".sass-cache",
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		"tmp/cache",
-		"wp-content/cache",
-		"/vendor/",
-		"node_modules"
-	],
-	"font_face": "Fira Code",
-	"font_size": 14.0,
-	"ignored_packages":
-	[
-		"Search WordPress Codex",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_normal",
-		"draw_active"
-	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"overlay_scroll_bars": "enabled",
-	"scroll_past_end": true,
-	"smart_indent": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
-}
-
-```
-
-### Sublime - SublimeLinter Settings
-
-```json
-{
-    "user": {
-        "debug": false,
-        "delay": 0.25,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "save only",
-        "linters": {
-            "eslint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "json": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "strict": true
-            },
-            "php": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "phpcs": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "standard": "PSR2"
-            },
-            "scss": {
-                "@disable": false,
-                "args": [],
-                "exclude-linter": [
-                    "SelectorFormat",
-                    "NameFormat"
-                ],
-                "excludes": [],
-                "include-linter": ""
-            },
-            "shellcheck": {
-                "@disable": false,
-                "args": [],
-                "exclude": "",
-                "excludes": []
-            }
-        },
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": false,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "php": "html",
-            "python django": "python"
-        },
-        "warning_color": "DDB700",
-        "wrap_find": true
-    }
-}
-```
-
-### Launch Sublime from the command line
-
-http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/
-
-For example:
-
-```bash
-sublime ./
-```
 
 ### Install OneDrive
 
 Install it!
 
 ### Mackup
+If restoring...
 
-`mackup restore`
+    brew install mackup
+    mackup restore
 
 ### Configure Karabiner
 
@@ -309,7 +92,6 @@ Configure CapsLock to F19.
 
 * License in Evernote. Config in OneDrive.
 * https://www.alfredapp.com/
-* Or use [Link Alfred with Cask](http://computers.tutsplus.com/tutorials/perfect-configurations-with-homebrew-and-cask--cms-20768) commands if that works: `brew cask alfred link`
 
 ### Configure BetterTouchTool w/ config
 

@@ -32,7 +32,7 @@ brew install php70
 brew install homebrew/php/composer
 
 # MACKUP https://github.com/lra/mackup
-brew install mackup
+# brew install mackup
 
 # Force MySQL to start on system start
 ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
