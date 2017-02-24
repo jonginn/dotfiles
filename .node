@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
 npm config set prefix '~/.npm-packages'
-npm i -g npm-check-updates
-npm i -g npm-cache
 npm i -g bower
 npm i -g n
