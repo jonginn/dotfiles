@@ -10,6 +10,7 @@ function installcask() {
 # API_KEY="UPDATEME" brew cask install prey
 
 # Essential Mac
+installcask alfred
 installcask hyperswitch
 installcask flux
 installcask bettertouchtool
