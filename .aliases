@@ -150,3 +150,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Show apache error log
+alias erlog="tail -f /usr/local/var/log/apache2/error_log"
