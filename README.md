@@ -55,14 +55,14 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ### Update Apache to use PHP from Homebrew
 Follow the steps from [here](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions).
 
+### Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
 ### Install the dotfiles
 ```bash
 source ./bootstrap.sh
-```
-
-### Install SCM Breeze
-```bash
-./scm_breeze.sh
 ```
 
 ## Extras
