@@ -84,5 +84,17 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias brewup='brew update && brew upgrade && brew cleanup; brew doctor'
+alias pick="git add -p"
+alias unpick="git reset -p"
+alias hosts="sudo nano /private/etc/hosts"
+alias flush="sudo apachectl restart && dscacheutil -flushcache"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Disable/enable Spotlight
+alias spotoff="sudo mdutil -a -i off"
+alias spoton="sudo mdutil -a -i on"
 
 [ -s "/Users/jon/.scm_breeze/scm_breeze.sh" ] && source "/Users/jon/.scm_breeze/scm_breeze.sh"

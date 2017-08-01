@@ -60,6 +60,10 @@ Follow the steps from [here](https://getgrav.org/blog/macos-sierra-apache-multip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+### Install SCM Breeze
+
+https://github.com/scmbreeze/scm_breeze
+
 ### Install the dotfiles
 ```bash
 source ./bootstrap.sh
