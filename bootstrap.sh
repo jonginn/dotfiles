@@ -13,7 +13,6 @@ else
 	echo
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		doIt
-    echo "Go to https://github.com/robbyrussell/oh-my-zsh and install oh-my-zsh."
 	fi
 fi
 unset doIt

@@ -154,5 +154,5 @@ alias reload="exec $SHELL -l"
 # Show apache error log
 alias erlog="tail -f /usr/local/var/log/apache2/error_log"
 
-// find XYZ
+# find XYZ
 function find { grep -rnIi "$1" . --color; }
