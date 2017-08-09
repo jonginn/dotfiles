@@ -97,4 +97,15 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 alias spotoff="sudo mdutil -a -i off"
 alias spoton="sudo mdutil -a -i on"
 
+alias erlog="tail -f /usr/local/var/log/apache2/error_log"
+
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+
+# Add npm custom directory to PATH
+export PATH="$HOME/.npm-packages/bin:$PATH"
+
+# Add Homebrew's sbin
+export PATH="/usr/local/sbin:$PATH"
+
 [ -s "/Users/jon/.scm_breeze/scm_breeze.sh" ] && source "/Users/jon/.scm_breeze/scm_breeze.sh"
