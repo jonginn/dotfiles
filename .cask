@@ -23,8 +23,8 @@ installcask caffeine
 
 # Work
 installcask slack
-installcask keepassx
 installcask atom
+installcask 1password
 
 # Apps
 installcask google-chrome
