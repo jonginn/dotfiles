@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# https://github.com/xdissent/ievms
+
+brew cask install virtualbox-extension-pack
+
+brew install unar
+
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env IEVMS_VERSIONS="10 11" bash
