@@ -41,6 +41,7 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 # Install other useful binaries
 brew install ack
 brew install git
+brew install awscli
 # brew install imagemagick
 # brew install lynx
 brew install node
