@@ -17,6 +17,7 @@ installcask bettertouchtool
 installcask karabiner-elements
 installcask the-unarchiver
 installcask caffeine
+installcask time-out
 
 # Tripmode will automatically activate when installed and cut off further installations... so do this manually.
 # installcask tripmode
