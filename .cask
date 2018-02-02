@@ -11,7 +11,7 @@ function installcask() {
 
 # Essential Mac
 installcask alfred
-installcask hyperswitch
+installcask contexts
 installcask flux
 installcask bettertouchtool
 installcask karabiner-elements
