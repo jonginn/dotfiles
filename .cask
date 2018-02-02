@@ -34,22 +34,25 @@ installcask steam
 # installcask jadengeller-helium
 # installcask transmission
 installcask vlc
-# installcask numi
 installcask google-play-music-desktop-player
 installcask tunnelbear
+installcask cakebrew
+installcask macdown
+installcask leech
+installcask colorpicker
+installcask colorpicker-hex
 
 # development
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask virtualbox
 installcask sequel-pro
 installcask cyberduck
+installcask virtualbox
 installcask vagrant
 installcask vagrant-manager
 installcask adobe-creative-cloud
 installcask postman
-installcask meld
 
 # quicklook
 installcask 'qlcolorcode'
