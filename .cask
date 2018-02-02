@@ -26,6 +26,7 @@ installcask time-out
 installcask slack
 installcask atom
 installcask 1password
+installcask google-drive-file-stream
 
 # Apps
 installcask google-chrome
