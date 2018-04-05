@@ -60,6 +60,17 @@ Follow the steps from [here](https://getgrav.org/blog/macos-sierra-apache-multip
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
+#### Set up [ZSH Autocomplete](https://github.com/zsh-users/zsh-autosuggestions)
+```bash
+brew install zsh-autosuggestions
+```
+
+And add this to `.zshrc`:
+
+```bash
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
 ### Install SCM Breeze
 
 https://github.com/scmbreeze/scm_breeze
