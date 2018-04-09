@@ -55,7 +55,6 @@ brew install mcrypt
 brew install php70-mcrypt
 brew install ansible
 brew install gti
-brew install thefuck
 
 # Get latest Ruby
 brew install ruby
