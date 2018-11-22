@@ -35,7 +35,7 @@ installcask steam
 # installcask transmission
 installcask vlc
 installcask google-play-music-desktop-player
-installcask tunnelbear
+installcask nordvpn
 installcask cakebrew
 installcask macdown
 installcask leech
