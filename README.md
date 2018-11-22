@@ -114,6 +114,10 @@ License + Config in OneDrive.
 
 ## Things to do now
 
+### Install VS Code settings sync
+
+https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
+
 ### Check out Scotchbox
 
 https://box.scotch.io/
