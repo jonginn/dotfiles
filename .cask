@@ -12,19 +12,19 @@ function installcask() {
 # Essential Mac
 installcask alfred
 installcask contexts
-installcask flux
+# installcask flux
 installcask bettertouchtool
 installcask karabiner-elements
 installcask the-unarchiver
-installcask caffeine
-installcask time-out
+# installcask caffeine
+# installcask time-out
 
 # Tripmode will automatically activate when installed and cut off further installations... so do this manually.
 # installcask tripmode
 
 # Work
 installcask slack
-installcask atom
+# installcask atom
 installcask 1password
 installcask google-drive-file-stream
 
@@ -34,11 +34,10 @@ installcask steam
 # installcask jadengeller-helium
 # installcask transmission
 installcask vlc
-installcask google-play-music-desktop-player
-installcask nordvpn
+# installcask nordvpn
 installcask cakebrew
 installcask macdown
-installcask leech
+# installcask leech
 installcask colorpicker
 installcask colorpicker-hex
 
@@ -46,10 +45,10 @@ installcask colorpicker-hex
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask sequel-pro
-installcask cyberduck
-installcask virtualbox
-installcask vagrant
+# installcask sequel-pro
+# installcask cyberduck
+# installcask virtualbox
+# installcask vagrant
 installcask vagrant-manager
 installcask adobe-creative-cloud
 installcask postman
